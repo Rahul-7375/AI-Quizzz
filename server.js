@@ -5,18 +5,13 @@ import { createServer as createViteServer } from "vite";
 import { GoogleGenAI, Type } from "@google/genai";
 import OpenAI from "openai";
 import dotenv from "dotenv";
-
 dotenv.config();
-
 const app = express();
-const PORT = 3000;
-
+const PORT = Number(process.env.PORT || 3000);
 app.use(express.json());
-
 // Initialize OpenAI Client lazily
-let openaiClient: OpenAI | null = null;
-
-function getOpenAIClient(): OpenAI | null {
+let openaiClient = null;
+function getOpenAIClient() {
   if (!openaiClient) {
     const apiKey = process.env.OPENAI_API_KEY;
     if (apiKey) {
@@ -26,16 +21,16 @@ function getOpenAIClient(): OpenAI | null {
   }
   return openaiClient;
 }
-
 // Initialize Gemini Client
 // We use a lazy initializer to avoid crashing on startup if the API key is missing
-let aiClient: GoogleGenAI | null = null;
-
-function getAiClient(): GoogleGenAI {
+let aiClient = null;
+function getAiClient() {
   if (!aiClient) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
-      throw new Error("GEMINI_API_KEY environment variable is required. Please set it in the Secrets panel.");
+      throw new Error(
+        "GEMINI_API_KEY environment variable is required. Please set it in the Secrets panel.",
+      );
     }
     aiClient = new GoogleGenAI({
       apiKey,
@@ -48,20 +43,21 @@ function getAiClient(): GoogleGenAI {
   }
   return aiClient;
 }
-
 // Load historical sports knowledge database
-let historicalKnowledge: any = {};
+let historicalKnowledge = {};
 try {
-  const filePath = path.join(process.cwd(), "src/data/historical_sports_knowledge.json");
+  const filePath = path.join(
+    process.cwd(),
+    "src/data/historical_sports_knowledge.json",
+  );
   if (fs.existsSync(filePath)) {
     historicalKnowledge = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   }
 } catch (err) {
   console.error("Error reading historical sports knowledge:", err);
 }
-
 // Load fallback quizzes database
-let fallbackQuizzes: any = {};
+let fallbackQuizzes = {};
 try {
   const filePath = path.join(process.cwd(), "src/data/fallback_quizzes.json");
   if (fs.existsSync(filePath)) {
@@ -70,25 +66,33 @@ try {
 } catch (err) {
   console.error("Error reading fallback quizzes:", err);
 }
-
 // API endpoint to generate sports quiz
 app.post("/api/quiz/generate", async (req, res) => {
-  const { sport, difficulty, isThemedPack, themeTitle, themeDescription, themeFocus } = req.body;
-
+  const {
+    sport,
+    difficulty,
+    isThemedPack,
+    themeTitle,
+    themeDescription,
+    themeFocus,
+  } = req.body;
   if (!sport || !difficulty) {
-    return res.status(400).json({ error: "Sport and difficulty are required." });
+    return res
+      .status(400)
+      .json({ error: "Sport and difficulty are required." });
   }
-
   const sportKey = sport.toLowerCase().replace(/\s+/g, "");
-  const sportData = historicalKnowledge[sportKey] || { sportName: sport, historicalFacts: [], rules: [] };
-
+  const sportData = historicalKnowledge[sportKey] || {
+    sportName: sport,
+    historicalFacts: [],
+    rules: [],
+  };
   // 1. Gather historical data from local "ChromaDB"
   const localFactsText = [
     `Sport Name: ${sportData.sportName}`,
-    `Verified Historical Facts:\n${sportData.historicalFacts.map((f: string) => `- ${f}`).join("\n")}`,
-    `Verified Standard Rules:\n${sportData.rules.map((r: string) => `- ${r}`).join("\n")}`
+    `Verified Historical Facts:\n${sportData.historicalFacts.map((f) => `- ${f}`).join("\n")}`,
+    `Verified Standard Rules:\n${sportData.rules.map((r) => `- ${r}`).join("\n")}`,
   ].join("\n\n");
-
   // 2. Build User Prompt
   let userPrompt = "";
   if (isThemedPack) {
@@ -140,7 +144,6 @@ app.post("/api/quiz/generate", async (req, res) => {
       You MUST respond with a JSON object containing the exact structure below. Do not include markdown formatting like \`\`\`json outside of standard JSON.
     `;
   }
-
   // 3. Try OpenAI First if Key is Available
   const openai = getOpenAIClient();
   if (openai) {
@@ -168,41 +171,49 @@ The response must adhere exactly to this JSON structure:
     }
   ],
   "rawSocialMediaText": "A social media post formatted with emojis for copy-pasting"
-}`
+}`,
           },
           {
             role: "user",
-            content: userPrompt
-          }
+            content: userPrompt,
+          },
         ],
-        response_format: { type: "json_object" }
+        response_format: { type: "json_object" },
       });
-
       const resultText = completion.choices[0].message.content || "{}";
       const parsedData = JSON.parse(resultText);
-
       return res.json({
         ...parsedData,
         localFacts: sportData.historicalFacts,
         localRules: sportData.rules,
-        searchQueries: ["Grounded Local Database Verification", "GPT-4o-Mini Reasoning Matcher"],
+        searchQueries: [
+          "Grounded Local Database Verification",
+          "GPT-4o-Mini Reasoning Matcher",
+        ],
         sources: [
-          { title: `${sportData.sportName} Grounded Factsheet`, uri: "https://sports.example.com/facts" },
-          { title: "Standard Rulebook Guidelines", uri: "https://sports.example.com/rules" }
+          {
+            title: `${sportData.sportName} Grounded Factsheet`,
+            uri: "https://sports.example.com/facts",
+          },
+          {
+            title: "Standard Rulebook Guidelines",
+            uri: "https://sports.example.com/rules",
+          },
         ],
         isThemedPack: !!isThemedPack,
         themeTitle: themeTitle || null,
-        provider: "OpenAI"
+        provider: "OpenAI",
       });
-    } catch (openaiErr: any) {
-      console.error("OpenAI quiz generation failed, trying Gemini:", openaiErr.message);
+    } catch (openaiErr) {
+      console.error(
+        "OpenAI quiz generation failed, trying Gemini:",
+        openaiErr.message,
+      );
     }
   }
-
   // 4. Try Gemini fallback/primary
   try {
     const ai = getAiClient();
-
     // We can define the schema for our JSON response
     const response = await ai.models.generateContent({
       model: "gemini-3.5-flash",
@@ -215,19 +226,20 @@ The response must adhere exactly to this JSON structure:
           properties: {
             isError: {
               type: Type.BOOLEAN,
-              description: "True if there is not enough verified context to generate the quiz."
+              description:
+                "True if there is not enough verified context to generate the quiz.",
             },
             errorMessage: {
               type: Type.STRING,
-              description: "The error message to return if isError is true."
+              description: "The error message to return if isError is true.",
             },
             sport: {
               type: Type.STRING,
-              description: "The name of the sport or theme."
+              description: "The name of the sport or theme.",
             },
             difficulty: {
               type: Type.STRING,
-              description: "The difficulty level."
+              description: "The difficulty level.",
             },
             questions: {
               type: Type.ARRAY,
@@ -240,42 +252,51 @@ The response must adhere exactly to this JSON structure:
                   options: {
                     type: Type.ARRAY,
                     items: { type: Type.STRING },
-                    description: "Exactly 4 options, each starting with its prefix, e.g. 'A. Player Name', 'B. Player Name', etc."
+                    description:
+                      "Exactly 4 options, each starting with its prefix, e.g. 'A. Player Name', 'B. Player Name', etc.",
                   },
                   correctAnswerLetter: {
                     type: Type.STRING,
-                    description: "Strictly 'A', 'B', 'C', or 'D'"
+                    description: "Strictly 'A', 'B', 'C', or 'D'",
                   },
                   explanation: {
                     type: Type.STRING,
-                    description: "Short 1-3 sentence explanation referencing the grounding source."
-                  }
+                    description:
+                      "Short 1-3 sentence explanation referencing the grounding source.",
+                  },
                 },
-                required: ["questionNumber", "question", "options", "correctAnswerLetter", "explanation"]
-              }
+                required: [
+                  "questionNumber",
+                  "question",
+                  "options",
+                  "correctAnswerLetter",
+                  "explanation",
+                ],
+              },
             },
             rawSocialMediaText: {
               type: Type.STRING,
-              description: "The quiz formatted EXACTLY as specified for copy-paste to social media, in plain text."
-            }
+              description:
+                "The quiz formatted EXACTLY as specified for copy-paste to social media, in plain text.",
+            },
           },
-          required: ["isError", "sport", "difficulty"]
-        }
-      }
+          required: ["isError", "sport", "difficulty"],
+        },
+      },
     });
-
     const resultText = response.text;
     const parsedData = JSON.parse(resultText);
-
     // Also extract the search grounding metadata chunks to display in our sources panel
-    const searchChunks = response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
-    const searchQueries = response.candidates?.[0]?.groundingMetadata?.webSearchQueries || [];
-    
-    const sources = searchChunks.map((chunk: any) => ({
-      title: chunk.web?.title || "Search Result",
-      uri: chunk.web?.uri || "",
-    })).filter((source: any) => source.uri !== "");
-
+    const searchChunks =
+      response.candidates?.[0]?.groundingMetadata?.groundingChunks || [];
+    const searchQueries =
+      response.candidates?.[0]?.groundingMetadata?.webSearchQueries || [];
+    const sources = searchChunks
+      .map((chunk) => ({
+        title: chunk.web?.title || "Search Result",
+        uri: chunk.web?.uri || "",
+      }))
+      .filter((source) => source.uri !== "");
     res.json({
       ...parsedData,
       localFacts: sportData.historicalFacts,
@@ -284,48 +305,53 @@ The response must adhere exactly to this JSON structure:
       sources,
       isThemedPack: !!isThemedPack,
       themeTitle: themeTitle || null,
-      provider: "Gemini"
+      provider: "Gemini",
     });
-
-  } catch (error: any) {
-    console.warn("Gemini API encountered an error. Falling back to local offline quiz generator:", error.message);
-    
+  } catch (error) {
+    console.warn(
+      "Gemini API encountered an error. Falling back to local offline quiz generator:",
+      error.message,
+    );
     try {
       // Formulate a key based on the request
       let fallbackKey = "";
       const isTheme = !!isThemedPack;
       const title = themeTitle || "";
-      
       if (isTheme) {
         // e.g. "world-cup-classics"
-        fallbackKey = themeTitle ? themeTitle.toLowerCase().replace(/\s+/g, "-") : "";
+        fallbackKey = themeTitle
+          ? themeTitle.toLowerCase().replace(/\s+/g, "-")
+          : "";
       } else {
         // e.g. "football_Easy"
         const formattedSport = sport.toLowerCase();
         // Capitalize difficulty appropriately
-        const formattedDiff = difficulty.charAt(0).toUpperCase() + difficulty.slice(1).toLowerCase();
+        const formattedDiff =
+          difficulty.charAt(0).toUpperCase() +
+          difficulty.slice(1).toLowerCase();
         fallbackKey = `${formattedSport}_${formattedDiff}`;
       }
-
       console.log(`Looking up fallback quiz for key: '${fallbackKey}'`);
       let chosenQuiz = fallbackQuizzes[fallbackKey];
-      
       // If no exact match, try standard fallback for the sport, or grab first available key
       if (!chosenQuiz) {
-        console.log(`No exact fallback quiz found for key '${fallbackKey}', trying to match by sport.`);
+        console.log(
+          `No exact fallback quiz found for key '${fallbackKey}', trying to match by sport.`,
+        );
         const sportKeys = Object.keys(fallbackQuizzes);
-        const sportFallbackKey = sportKeys.find(k => k.startsWith(sport.toLowerCase())) || "football_Easy";
+        const sportFallbackKey =
+          sportKeys.find((k) => k.startsWith(sport.toLowerCase())) ||
+          "football_Easy";
         chosenQuiz = fallbackQuizzes[sportFallbackKey];
       }
-
       if (chosenQuiz) {
         // Format raw social media text block
-        const formattedQuestionsText = chosenQuiz.questions.map((q: any) => {
-          return `Q${q.questionNumber}: ${q.question}\n${q.options.map((opt: string) => `   ${opt}`).join("\n")}\n   Correct Answer: ${q.correctAnswerLetter}\n   Explanation: ${q.explanation}\n`;
-        }).join("\n");
-
+        const formattedQuestionsText = chosenQuiz.questions
+          .map((q) => {
+            return `Q${q.questionNumber}: ${q.question}\n${q.options.map((opt) => `   ${opt}`).join("\n")}\n   Correct Answer: ${q.correctAnswerLetter}\n   Explanation: ${q.explanation}\n`;
+          })
+          .join("\n");
         const rawSocialMediaText = `🏆 Grounded AI Sports Quiz: ${isTheme ? title : chosenQuiz.sport} (${difficulty} Pack)\n\n🧠 Test your knowledge with these grounded sports trivia questions!\n\n${formattedQuestionsText}`;
-
         return res.json({
           isError: false,
           sport: chosenQuiz.sport,
@@ -334,29 +360,41 @@ The response must adhere exactly to this JSON structure:
           rawSocialMediaText,
           localFacts: sportData.historicalFacts || [],
           localRules: sportData.rules || [],
-          searchQueries: ["Standard Local Rules Verification", "Recent Matches Retrieval"],
+          searchQueries: [
+            "Standard Local Rules Verification",
+            "Recent Matches Retrieval",
+          ],
           sources: [
-            { title: `${chosenQuiz.sport} Verified Historical Records`, uri: "https://sports.example.com/history" },
-            { title: "Standard Rulebook Guidelines", uri: "https://sports.example.com/rules" }
+            {
+              title: `${chosenQuiz.sport} Verified Historical Records`,
+              uri: "https://sports.example.com/history",
+            },
+            {
+              title: "Standard Rulebook Guidelines",
+              uri: "https://sports.example.com/rules",
+            },
           ],
           isThemedPack: isTheme,
           themeTitle: title || null,
           isFallback: true,
-          fallbackNotice: "We activated our High-Fidelity Local Fallback Engine! Enjoy a fully verified and accurate trivia pack.",
-          provider: "Local Database"
+          fallbackNotice:
+            "We activated our High-Fidelity Local Fallback Engine! Enjoy a fully verified and accurate trivia pack.",
+          provider: "Local Database",
         });
       }
-    } catch (fallbackError: any) {
-      console.error("Critical: Fallback quiz generator also failed:", fallbackError);
+    } catch (fallbackError) {
+      console.error(
+        "Critical: Fallback quiz generator also failed:",
+        fallbackError,
+      );
     }
-
     res.status(500).json({
-      error: "Failed to generate quiz. Please ensure your GEMINI_API_KEY is configured in the secrets menu.",
-      details: error.message
+      error:
+        "Failed to generate quiz. Please ensure your GEMINI_API_KEY is configured in the secrets menu.",
+      details: error.message,
     });
   }
 });
-
 // Configure Vite or production static server
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
@@ -372,10 +410,20 @@ async function startServer() {
       res.sendFile(path.join(distPath, "index.html"));
     });
   }
-
-  app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Server running on http://0.0.0.0:${PORT}`);
-  });
+  app
+    .listen(PORT, "0.0.0.0", () => {
+      console.log(`Server running on http://0.0.0.0:${PORT}`);
+    })
+    .on("error", (error) => {
+      if (error && (error.code === "EADDRINUSE" || error.code === "EACCES")) {
+        const fallbackPort = PORT + 1;
+        console.warn(`Port ${PORT} is busy; trying ${fallbackPort} instead.`);
+        app.listen(fallbackPort, "0.0.0.0", () => {
+          console.log(`Server running on http://0.0.0.0:${fallbackPort}`);
+        });
+      } else {
+        throw error;
+      }
+    });
 }
-
 startServer();
