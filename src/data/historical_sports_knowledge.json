@@ -1,0 +1,136 @@
+{
+  "cricket": {
+    "sportName": "Cricket",
+    "historicalFacts": [
+      "The first official international cricket match was played in 1844 between the United States and Canada.",
+      "The first official Test match was played in 1877 between England and Australia in Melbourne, which Australia won.",
+      "The first Cricket World Cup was held in England in 1975, and was won by the West Indies.",
+      "Sir Don Bradman of Australia holds the highest individual Test batting average of 99.94.",
+      "Sachin Tendulkar of India is the highest run-scorer in international cricket history and the only player to score 100 international centuries.",
+      "Muttiah Muralitharan of Sri Lanka holds the record for the most wickets in Test (800) and ODI (534) cricket.",
+      "A standard cricket pitch is exactly 22 yards (20.12 meters) in length.",
+      "The 'Ashes' series between England and Australia was established in 1882 after a mock obituary for English cricket was published."
+    ],
+    "rules": [
+      "A standard team consists of 11 players.",
+      "An umpire can dismiss a batsman in 10 different ways, including bowled, caught, LBW (Leg Before Wicket), run out, stumped, and hit wicket.",
+      "A match is played using a leather ball and a wooden bat, on a field with a central pitch containing wickets at each end."
+    ]
+  },
+  "football": {
+    "sportName": "Football",
+    "historicalFacts": [
+      "The first FIFA World Cup was held in Uruguay in 1930, and the hosts won the tournament.",
+      "Brazil holds the record for the most FIFA World Cup titles, winning it five times (1958, 1962, 1970, 1994, 2002).",
+      "Pelé is the only player to win three FIFA World Cups (1958, 1962, 1970).",
+      "The modern rules of association football were first codified in England in 1863 with the founding of the Football Association.",
+      "Real Madrid won the first five editions of the European Cup (now UEFA Champions League) from 1956 to 1960.",
+      "Lionel Messi holds the record for the most Ballon d'Or awards (8) and the most goals scored in a calendar year (91 goals in 2012)."
+    ],
+    "rules": [
+      "A match consists of two 45-minute halves, making 90 minutes in total.",
+      "Each team has 11 players, including one goalkeeper.",
+      "An offside offence occurs if a player is closer to the opponent's goal line than both the ball and the second-last opponent when the ball is played to them.",
+      "Yellow cards represent cautions, while a red card results in immediate ejection from the field."
+    ]
+  },
+  "basketball": {
+    "sportName": "Basketball",
+    "historicalFacts": [
+      "Basketball was invented in December 1891 by Dr. James Naismith, a Canadian physical education instructor, in Springfield, Massachusetts.",
+      "The National Basketball Association (NBA) was founded in 1946 as the Basketball Association of America (BAA).",
+      "The Boston Celtics and Los Angeles Lakers are tied for the most NBA championships, with 17 titles each.",
+      "Wilt Chamberlain scored an NBA-record 100 points in a single game on March 2, 1962.",
+      "Michael Jordan won six NBA championships with the Chicago Bulls, winning Finals MVP in all six.",
+      "LeBron James is the NBA's all-time leading scorer, surpassing Kareem Abdul-Jabbar's long-standing record of 38,387 points in 2023."
+    ],
+    "rules": [
+      "A standard team has 5 players on the court.",
+      "A basket made from within the three-point arc is worth 2 points, while a basket made from beyond the arc is worth 3 points. Free throws are worth 1 point.",
+      "Dribbling the ball with both hands simultaneously or stopping and starting dribbling again constitutes a 'double dribble' violation."
+    ]
+  },
+  "tennis": {
+    "sportName": "Tennis",
+    "historicalFacts": [
+      "The Wimbledon Championships, founded in 1877, is the oldest tennis tournament in the world.",
+      "The four Grand Slam tournaments are Wimbledon, the US Open, the French Open, and the Australian Open.",
+      "Roger Federer was the first male player to reach 20 Grand Slam singles titles.",
+      "Rafael Nadal is known as the 'King of Clay' and holds a record 14 French Open singles titles.",
+      "Novak Djokovic holds the record for the most Grand Slam men's singles titles in tennis history.",
+      "Serena Williams holds the Open Era record for the most Grand Slam singles titles with 23.",
+      "Steffi Graf is the only player to achieve the 'Golden Slam' by winning all four Grand Slams and an Olympic Gold medal in a single calendar year (1888)."
+    ],
+    "rules": [
+      "Tennis scoring follows: Love (0), 15, 30, 40, Game. If tied at 40-40, it is called 'Deuce', requiring a two-point margin to win.",
+      "A standard tennis court measures 78 feet (23.77 meters) long and 27 feet (8.23 meters) wide for singles matches.",
+      "Players serve diagonally into the opponent's service box, and are allowed two serves per point."
+    ]
+  },
+  "badminton": {
+    "sportName": "Badminton",
+    "historicalFacts": [
+      "Badminton developed in British India in the mid-19th century from an earlier game called battledore and shuttlecock.",
+      "The International Badminton Federation (now Badminton World Federation, BWF) was founded in 1934.",
+      "Badminton made its debut as an official Olympic sport at the 1992 Barcelona Games.",
+      "China has historically dominated badminton, winning the most Olympic gold medals and Uber/Thomas Cup titles.",
+      "Lin Dan of China is widely considered the greatest singles badminton player, winning two Olympic golds and five World Championships.",
+      "Lee Chong Wei of Malaysia held the World No. 1 ranking for a consecutive 199 weeks between 2008 and 2012."
+    ],
+    "rules": [
+      "A match is played with a shuttlecock (or birdie) and lightweight rackets.",
+      "The first player/pair to reach 21 points wins a game. If the score is 20-20, a side must win by 2 points.",
+      "A shuttlecock landing on a boundary line is considered in-bounds.",
+      "The serve must be hit underhand from below the server's waist level."
+    ]
+  },
+  "hockey": {
+    "sportName": "Hockey",
+    "historicalFacts": [
+      "Field hockey's modern rules developed in England in the mid-19th century, with the Blackheath Football and Hockey Club being the oldest club (1861).",
+      "India is the most successful nation in Olympic field hockey history, winning 8 gold medals, including 6 consecutive golds from 1928 to 1956.",
+      "The legendary Dhyan Chand of India is regarded as the greatest field hockey player ever, known for his extraordinary ball control.",
+      "Ice hockey originated in Canada in the early 19th century, with the first indoor game played in Montreal in 1875.",
+      "The Montreal Canadiens have won the NHL's Stanley Cup a record 24 times.",
+      "Wayne Gretzky, known as 'The Great One', holds almost all major NHL scoring records, including most career goals (894) and assists (1,963)."
+    ],
+    "rules": [
+      "In field hockey, a match consists of four 15-minute quarters, played by 11 players per team.",
+      "In ice hockey, a match consists of three 20-minute periods, played by 6 players per team on the ice.",
+      "In field hockey, goals can only be scored from inside the 'shooting circle' or 'D'.",
+      "The curved side of the hockey stick is considered 'flat' on only one side; players must only use this flat side to hit the ball."
+    ]
+  },
+  "formula1": {
+    "sportName": "Formula 1",
+    "historicalFacts": [
+      "The first Formula 1 World Championship race was held at Silverstone, England, on May 13, 1950, and was won by Giuseppe Farina.",
+      "Michael Schumacher and Lewis Hamilton are tied for the record of most World Drivers' Championships, with seven titles each.",
+      "Ferrari is the oldest and most successful active team in Formula 1 history, holding the record for the most Constructors' Championships (16).",
+      "Ayrton Senna of Brazil won three World Championships and is legendary for his sensational qualifying speed and rain-driving mastery.",
+      "Max Verstappen holds the record for the most wins in a single season (19 wins out of 22 races in 2023).",
+      "Sebastian Vettel became the youngest ever World Champion in 2010 at the age of 23 years and 134 days."
+    ],
+    "rules": [
+      "A race must not exceed 2 hours in duration, or 3 hours in case of a suspension, and has a minimum distance of 305 km.",
+      "Drivers must use at least two different dry tyre compounds during a dry race.",
+      "Points are awarded to the top 10 finishers, with 25 points for 1st place and 1 point for 10th place, plus 1 point for the fastest lap (if finishing in the top 10)."
+    ]
+  },
+  "volleyball": {
+    "sportName": "Volleyball",
+    "historicalFacts": [
+      "Volleyball was invented in 1895 by William G. Morgan, a YMCA physical education director, in Holyoke, Massachusetts, originally called 'Mintonette'.",
+      "The Federation Internationale de Volleyball (FIVB) was founded in Paris in 1947.",
+      "Volleyball was added to the summer Olympic program in 1964 in Tokyo.",
+      "Karch Kiraly of the USA is the only person to win Olympic gold medals in both indoor volleyball (1984, 1988) and beach volleyball (1996).",
+      "The Soviet Union (men) and Cuba (women) have historically been powerhouse teams, with Cuba winning three consecutive Olympic golds in the 1990s."
+    ],
+    "rules": [
+      "A team consists of 6 players on the court.",
+      "A team is allowed a maximum of three touches of the ball before sending it over the net.",
+      "A single player may not touch the ball twice in succession (except when blocking).",
+      "Games are played to 25 points (using rally scoring), and must be won by a two-point margin. A deciding fifth set is played to 15 points."
+    ]
+  }
+}

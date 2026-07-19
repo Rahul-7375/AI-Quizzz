@@ -1,0 +1,1053 @@
+{
+  "football_Easy": {
+    "sport": "Football",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "How many players are on the field for a single football team during a standard match?",
+        "options": ["A. 9 players", "B. 10 players", "C. 11 players", "D. 12 players"],
+        "correctAnswerLetter": "C",
+        "explanation": "A standard football team has exactly 11 players on the pitch, including the goalkeeper."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which country has won the most FIFA World Cups in history?",
+        "options": ["A. Germany", "B. Italy", "C. Argentina", "D. Brazil"],
+        "correctAnswerLetter": "D",
+        "explanation": "Brazil has won the FIFA World Cup a record five times (1958, 1962, 1970, 1994, 2002)."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the duration of a standard football match, excluding extra time?",
+        "options": ["A. 80 minutes", "B. 90 minutes", "C. 100 minutes", "D. 120 minutes"],
+        "correctAnswerLetter": "B",
+        "explanation": "A standard association football match consists of two halves of 45 minutes, totaling 90 minutes."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who is the only player to have won three FIFA World Cup tournaments?",
+        "options": ["A. Diego Maradona", "B. Pelé", "C. Lionel Messi", "D. Zinedine Zidane"],
+        "correctAnswerLetter": "B",
+        "explanation": "Pelé won three World Cups with Brazil, in 1958, 1962, and 1970."
+      }
+    ]
+  },
+  "football_Medium": {
+    "sport": "Football",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "In which country was the first ever FIFA World Cup held in 1930?",
+        "options": ["A. Brazil", "B. Italy", "C. Uruguay", "D. Argentina"],
+        "correctAnswerLetter": "C",
+        "explanation": "The inaugural FIFA World Cup was hosted and won by Uruguay in 1930."
+      },
+      {
+        "questionNumber": 2,
+        "question": "What is the offside rule in football?",
+        "options": [
+          "A. Being in the opponent's half",
+          "B. Closer to the opponent's goal line than the ball and second-last opponent when played",
+          "C. Standing behind the goalkeeper",
+          "D. Touching the ball with hands"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "A player is caught offside if they are closer to the opponent's goal line than both the ball and the second-last opponent when the ball is passed to them."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which club won the first five editions of the European Cup (now UEFA Champions League) from 1956 to 1960?",
+        "options": ["A. AC Milan", "B. Bayern Munich", "C. Real Madrid", "D. Barcelona"],
+        "correctAnswerLetter": "C",
+        "explanation": "Real Madrid dominated the early years of European football, winning the first five consecutive titles."
+      },
+      {
+        "questionNumber": 4,
+        "question": "In which year did Lionel Messi score a record-breaking 91 goals in a single calendar year?",
+        "options": ["A. 2009", "B. 2011", "C. 2012", "D. 2015"],
+        "correctAnswerLetter": "C",
+        "explanation": "Lionel Messi set an all-time world record by scoring 91 goals for Barcelona and Argentina in 2012."
+      }
+    ]
+  },
+  "football_Hard": {
+    "sport": "Football",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which player holds the record for the most Ballon d'Or awards in football history?",
+        "options": ["A. Cristiano Ronaldo", "B. Pelé", "C. Lionel Messi", "D. Johan Cruyff"],
+        "correctAnswerLetter": "C",
+        "explanation": "Lionel Messi has won a record 8 Ballon d'Or awards, the most of any player in football history."
+      },
+      {
+        "questionNumber": 2,
+        "question": "The modern rules of association football were first codified in 1863 with the founding of which organization?",
+        "options": ["A. FIFA", "B. The Football Association (England)", "C. UEFA", "D. International Football Association Board"],
+        "correctAnswerLetter": "B",
+        "explanation": "The modern rules of association football were first codified in England in 1863 with the founding of the Football Association (FA)."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which team has won the UEFA Champions League tournament the most times?",
+        "options": ["A. Real Madrid", "B. AC Milan", "C. Liverpool", "D. Bayern Munich"],
+        "correctAnswerLetter": "A",
+        "explanation": "Real Madrid holds the record for the most UEFA Champions League titles, having won it 15 times."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What happens when a player receives a direct red card in football?",
+        "options": [
+          "A. They are substituted",
+          "B. They sit out for 10 minutes",
+          "C. They are ejected immediately and cannot be replaced",
+          "D. Their team loses a goal"
+        ],
+        "correctAnswerLetter": "C",
+        "explanation": "A red card results in immediate ejection from the field, and the team must play the rest of the game with 10 players."
+      }
+    ]
+  },
+  "cricket_Easy": {
+    "sport": "Cricket",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "What is the length of a standard cricket pitch between the wickets?",
+        "options": ["A. 18 yards", "B. 20 yards", "C. 22 yards", "D. 24 yards"],
+        "correctAnswerLetter": "C",
+        "explanation": "A standard cricket pitch is exactly 22 yards (20.12 meters) in length."
+      },
+      {
+        "questionNumber": 2,
+        "question": "How many players are in a standard cricket team on the field?",
+        "options": ["A. 9 players", "B. 10 players", "C. 11 players", "D. 12 players"],
+        "correctAnswerLetter": "C",
+        "explanation": "A standard cricket team consists of 11 players."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which country won the first-ever Cricket World Cup held in 1975?",
+        "options": ["A. Australia", "B. England", "C. West Indies", "D. India"],
+        "correctAnswerLetter": "C",
+        "explanation": "The first Cricket World Cup was held in England in 1975 and was won by the West Indies."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who is the only player in cricket history to score 100 international centuries?",
+        "options": ["A. Virat Kohli", "B. Sachin Tendulkar", "C. Brian Lara", "D. Ricky Ponting"],
+        "correctAnswerLetter": "B",
+        "explanation": "Sachin Tendulkar of India is the only player in international cricket history to score 100 international centuries."
+      }
+    ]
+  },
+  "cricket_Medium": {
+    "sport": "Cricket",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who holds the record for the highest individual Test batting average of 99.94?",
+        "options": ["A. Sachin Tendulkar", "B. Sir Don Bradman", "C. Steve Smith", "D. Wally Hammond"],
+        "correctAnswerLetter": "B",
+        "explanation": "Sir Don Bradman of Australia holds the highest individual Test batting average of 99.94."
+      },
+      {
+        "questionNumber": 2,
+        "question": "In which year was the first official Test match played, and between which two teams?",
+        "options": [
+          "A. 1844 (USA vs Canada)",
+          "B. 1877 (England vs Australia)",
+          "C. 1882 (England vs Australia)",
+          "D. 1905 (England vs South Africa)"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "The first official Test match was played in 1877 between England and Australia in Melbourne, which Australia won."
+      },
+      {
+        "questionNumber": 3,
+        "question": "How many different ways can a batsman be dismissed by an umpire under standard cricket rules?",
+        "options": ["A. 5 ways", "B. 8 ways", "C. 10 ways", "D. 12 ways"],
+        "correctAnswerLetter": "C",
+        "explanation": "An umpire can dismiss a batsman in 10 different ways, including bowled, caught, LBW (Leg Before Wicket), run out, stumped, and hit wicket."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who holds the record for the most wickets in Test cricket history with exactly 800 wickets?",
+        "options": ["A. Shane Warne", "B. Muttiah Muralitharan", "C. Anil Kumble", "D. James Anderson"],
+        "correctAnswerLetter": "B",
+        "explanation": "Muttiah Muralitharan of Sri Lanka holds the record for the most wickets in Test (800) and ODI (534) cricket."
+      }
+    ]
+  },
+  "cricket_Hard": {
+    "sport": "Cricket",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "The famous 'Ashes' series between England and Australia was established in which year?",
+        "options": ["A. 1877", "B. 1882", "C. 1890", "D. 1901"],
+        "correctAnswerLetter": "B",
+        "explanation": "The 'Ashes' series between England and Australia was established in 1882 after a mock obituary for English cricket was published."
+      },
+      {
+        "questionNumber": 2,
+        "question": "In 1844, the first official international cricket match was played between which two countries?",
+        "options": ["A. England and Australia", "B. United States and Canada", "C. India and Pakistan", "D. West Indies and England"],
+        "correctAnswerLetter": "B",
+        "explanation": "The first official international cricket match was played in 1844 between the United States and Canada."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which country won the ICC Test Championship Mace for the inaugural 2019-2021 cycle?",
+        "options": ["A. India", "B. New Zealand", "C. Australia", "D. England"],
+        "correctAnswerLetter": "B",
+        "explanation": "New Zealand won the inaugural ICC World Test Championship by defeating India in the final at Southampton in June 2021."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who was the first cricket player to score a double century in an One Day International (ODI) match?",
+        "options": ["A. Rohit Sharma", "B. Chris Gayle", "C. Sachin Tendulkar", "D. Virender Sehwag"],
+        "correctAnswerLetter": "C",
+        "explanation": "Sachin Tendulkar of India became the first player to score a double century in men's ODI history, scoring 200* against South Africa in 2010."
+      }
+    ]
+  },
+  "basketball_Easy": {
+    "sport": "Basketball",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who invented the game of basketball in December 1891?",
+        "options": ["A. James Naismith", "B. Michael Jordan", "C. Abner Doubleday", "D. Walter Camp"],
+        "correctAnswerLetter": "A",
+        "explanation": "Basketball was invented in December 1891 by Dr. James Naismith, a Canadian physical education instructor, in Springfield, Massachusetts."
+      },
+      {
+        "questionNumber": 2,
+        "question": "How many players are on the court for a single team during a standard basketball game?",
+        "options": ["A. 4 players", "B. 5 players", "C. 6 players", "D. 11 players"],
+        "correctAnswerLetter": "B",
+        "explanation": "A standard basketball team has 5 players on the court."
+      },
+      {
+        "questionNumber": 3,
+        "question": "How many points is a standard basket worth if shot from within the three-point arc?",
+        "options": ["A. 1 point", "B. 2 points", "C. 3 points", "D. 4 points"],
+        "correctAnswerLetter": "B",
+        "explanation": "A basket made from within the three-point arc is worth 2 points, while a basket made from beyond the arc is worth 3 points."
+      },
+      {
+        "questionNumber": 4,
+        "question": "How many points is a successfully converted free throw worth?",
+        "options": ["A. 1 point", "B. 2 points", "C. 3 points", "D. 0.5 points"],
+        "correctAnswerLetter": "A",
+        "explanation": "A free throw is worth exactly 1 point."
+      }
+    ]
+  },
+  "basketball_Medium": {
+    "sport": "Basketball",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which two NBA franchises are tied for the most championships in league history with 17 titles each?",
+        "options": [
+          "A. Chicago Bulls & Golden State Warriors",
+          "B. Boston Celtics & Los Angeles Lakers",
+          "C. Miami Heat & San Antonio Spurs",
+          "D. New York Knicks & Philadelphia 76ers"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "The Boston Celtics and Los Angeles Lakers are tied for the most NBA championships, with 17 titles each."
+      },
+      {
+        "questionNumber": 2,
+        "question": "In which year was the National Basketball Association (NBA) originally founded?",
+        "options": ["A. 1936", "B. 1946", "C. 1950", "D. 1962"],
+        "correctAnswerLetter": "B",
+        "explanation": "The National Basketball Association (NBA) was founded in 1946 as the Basketball Association of America (BAA)."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the violation called when a player stops dribbling, holds the ball, and then starts dribbling again?",
+        "options": ["A. Traveling", "B. Carrying", "C. Double Dribble", "D. Backcourt Violation"],
+        "correctAnswerLetter": "C",
+        "explanation": "Dribbling the ball with both hands simultaneously or stopping and starting dribbling again constitutes a 'double dribble' violation."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who surpassed Kareem Abdul-Jabbar in 2023 to become the NBA's all-time leading scorer?",
+        "options": ["A. Kobe Bryant", "B. Michael Jordan", "C. LeBron James", "D. Stephen Curry"],
+        "correctAnswerLetter": "C",
+        "explanation": "LeBron James is the NBA's all-time leading scorer, surpassing Kareem Abdul-Jabbar's long-standing record of 38,387 points in 2023."
+      }
+    ]
+  },
+  "basketball_Hard": {
+    "sport": "Basketball",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which legendary player scored an NBA-record 100 points in a single game on March 2, 1962?",
+        "options": ["A. Wilt Chamberlain", "B. Kobe Bryant", "C. Michael Jordan", "D. Elgin Baylor"],
+        "correctAnswerLetter": "A",
+        "explanation": "Wilt Chamberlain scored an NBA-record 100 points in a single game on March 2, 1962, playing for the Philadelphia Warriors against the New York Knicks."
+      },
+      {
+        "questionNumber": 2,
+        "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls, and how many Finals MVP awards did he receive?",
+        "options": ["A. 5 championships, 5 Finals MVPs", "B. 6 championships, 5 Finals MVPs", "C. 6 championships, 6 Finals MVPs", "D. 7 championships, 6 Finals MVPs"],
+        "correctAnswerLetter": "C",
+        "explanation": "Michael Jordan won six NBA championships with the Chicago Bulls, winning Finals MVP in all six."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which NBA player holds the record for the most career assists in league history?",
+        "options": ["A. John Stockton", "B. Jason Kidd", "C. Magic Johnson", "D. Steve Nash"],
+        "correctAnswerLetter": "A",
+        "explanation": "John Stockton holds the all-time NBA record for assists (15,806) and steals (3,265) by a wide margin."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What is the standard height of an NBA basketball hoop from the gym floor?",
+        "options": ["A. 9 feet", "B. 9.5 feet", "C. 10 feet", "D. 10.5 feet"],
+        "correctAnswerLetter": "C",
+        "explanation": "The standard height of a basketball rim is exactly 10 feet (3.05 meters) above the playing surface."
+      }
+    ]
+  },
+  "tennis_Easy": {
+    "sport": "Tennis",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "What is the oldest and most prestigious tennis tournament in the world, founded in 1877?",
+        "options": ["A. US Open", "B. French Open", "C. Australian Open", "D. Wimbledon"],
+        "correctAnswerLetter": "D",
+        "explanation": "The Wimbledon Championships, founded in 1877, is the oldest tennis tournament in the world."
+      },
+      {
+        "questionNumber": 2,
+        "question": "How many points does a player score when they win the first point of a game?",
+        "options": ["A. 1 point", "B. 15 points", "C. 10 points", "D. 5 points"],
+        "correctAnswerLetter": "B",
+        "explanation": "Tennis scoring follows a traditional sequence: Love (0), 15, 30, 40, Game."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the term used in tennis scoring to represent a score of zero?",
+        "options": ["A. Null", "B. Zero", "C. Blank", "D. Love"],
+        "correctAnswerLetter": "D",
+        "explanation": "In tennis, 'Love' represents a score of zero."
+      },
+      {
+        "questionNumber": 4,
+        "question": "How many serves is a tennis player allowed to make per point before losing the point?",
+        "options": ["A. One serve", "B. Two serves", "C. Three serves", "D. Unlimited serves"],
+        "correctAnswerLetter": "B",
+        "explanation": "Players serve diagonally into the opponent's service box, and are allowed two serves (first serve and second serve) per point."
+      }
+    ]
+  },
+  "tennis_Medium": {
+    "sport": "Tennis",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who was the first male player in history to reach 20 Grand Slam singles titles?",
+        "options": ["A. Rafael Nadal", "B. Novak Djokovic", "C. Roger Federer", "D. Pete Sampras"],
+        "correctAnswerLetter": "C",
+        "explanation": "Roger Federer was the first male player to reach 20 Grand Slam singles titles."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Who is known as the 'King of Clay' and holds a record 14 French Open singles titles?",
+        "options": ["A. Bjorn Borg", "B. Rafael Nadal", "C. Novak Djokovic", "D. Carlos Alcaraz"],
+        "correctAnswerLetter": "B",
+        "explanation": "Rafael Nadal is known as the 'King of Clay' and holds a record 14 French Open singles titles."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the tennis scoring term used when the game score is tied at 40-40?",
+        "options": ["A. Tie-break", "B. Advantage", "C. Deuce", "D. All-40"],
+        "correctAnswerLetter": "C",
+        "explanation": "If tied at 40-40, it is called 'Deuce', requiring a two-point margin to win."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who holds the Open Era record for the most Grand Slam singles titles in women's tennis with 23?",
+        "options": ["A. Steffi Graf", "B. Serena Williams", "C. Martina Navratilova", "D. Margaret Court"],
+        "correctAnswerLetter": "B",
+        "explanation": "Serena Williams holds the Open Era record for the most Grand Slam singles titles with 23."
+      }
+    ]
+  },
+  "tennis_Hard": {
+    "sport": "Tennis",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who is the only player to achieve the 'Golden Slam' by winning all four Grand Slams and an Olympic Gold medal in a single calendar year?",
+        "options": ["A. Serena Williams", "B. Steffi Graf", "C. Rod Laver", "D. Roger Federer"],
+        "correctAnswerLetter": "B",
+        "explanation": "Steffi Graf is the only player to achieve the 'Golden Slam' by winning all four Grand Slams and an Olympic Gold medal in a single calendar year (1988)."
+      },
+      {
+        "questionNumber": 2,
+        "question": "What are the exact dimensions of a standard tennis court for singles matches?",
+        "options": [
+          "A. 78 feet long and 27 feet wide",
+          "B. 80 feet long and 30 feet wide",
+          "C. 75 feet long and 25 feet wide",
+          "D. 78 feet long and 36 feet wide"
+        ],
+        "correctAnswerLetter": "A",
+        "explanation": "A standard tennis court measures 78 feet (23.77 meters) long and 27 feet (8.23 meters) wide for singles matches."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which player holds the all-time record for the most Grand Slam men's singles titles in tennis history?",
+        "options": ["A. Roger Federer", "B. Rafael Nadal", "C. Novak Djokovic", "D. Pete Sampras"],
+        "correctAnswerLetter": "C",
+        "explanation": "Novak Djokovic holds the record for the most Grand Slam men's singles titles in tennis history."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which Grand Slam tournament is played on traditional grass courts?",
+        "options": ["A. Australian Open", "B. French Open", "C. Wimbledon", "D. US Open"],
+        "correctAnswerLetter": "C",
+        "explanation": "Wimbledon is famous for being the only Grand Slam tournament played on traditional grass courts."
+      }
+    ]
+  },
+  "badminton_Easy": {
+    "sport": "Badminton",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "What is the projectile used in the game of badminton called?",
+        "options": ["A. Birdie / Shuttlecock", "B. Ball", "C. Puck", "D. Shuttle-ball"],
+        "correctAnswerLetter": "A",
+        "explanation": "A match is played with a shuttlecock (commonly referred to as a birdie) and lightweight rackets."
+      },
+      {
+        "questionNumber": 2,
+        "question": "How many points must a player or pair score to win a standard game of badminton?",
+        "options": ["A. 15 points", "B. 21 points", "C. 25 points", "D. 30 points"],
+        "correctAnswerLetter": "B",
+        "explanation": "The first player/pair to reach 21 points wins a game under standard rally scoring rules."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the rule when a shuttlecock lands directly on any of the boundary lines?",
+        "options": ["A. It is out of bounds", "B. It is in-bounds", "C. The point must be replayed", "D. It is a fault"],
+        "correctAnswerLetter": "B",
+        "explanation": "A shuttlecock landing on a boundary line is considered in-bounds."
+      },
+      {
+        "questionNumber": 4,
+        "question": "From what height must a badminton serve be hit under standard rules?",
+        "options": ["A. Overhand, above the shoulder", "B. Underhand, from below the waist level", "C. Any height is allowed", "D. Below the knee level"],
+        "correctAnswerLetter": "B",
+        "explanation": "The serve must be hit underhand from below the server's waist level."
+      }
+    ]
+  },
+  "badminton_Medium": {
+    "sport": "Badminton",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Where did badminton develop in the mid-19th century from an earlier game called battledore and shuttlecock?",
+        "options": ["A. British India", "B. England", "C. China", "D. Malaysia"],
+        "correctAnswerLetter": "A",
+        "explanation": "Badminton developed in British India in the mid-19th century from an earlier game called battledore and shuttlecock."
+      },
+      {
+        "questionNumber": 2,
+        "question": "In which year did Badminton make its official debut as an Olympic medal sport?",
+        "options": ["A. 1988 Seoul", "B. 1992 Barcelona", "C. 1996 Atlanta", "D. 2000 Sydney"],
+        "correctAnswerLetter": "B",
+        "explanation": "Badminton made its debut as an official Olympic sport at the 1992 Barcelona Games."
+      },
+      {
+        "questionNumber": 3,
+        "question": "If the score is tied at 20-20 in badminton, how many points must a side win by to secure the game?",
+        "options": ["A. 1 point", "B. 2 points", "C. 3 points", "D. Must reach 30 first"],
+        "correctAnswerLetter": "B",
+        "explanation": "If the score is 20-20, a side must win by 2 points (e.g., 22-20) up to a maximum cap of 30 points (where 30-29 wins)."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which country has historically dominated badminton, winning the most Olympic gold medals and Uber/Thomas Cup titles?",
+        "options": ["A. Indonesia", "B. China", "C. Denmark", "D. Malaysia"],
+        "correctAnswerLetter": "B",
+        "explanation": "China has historically dominated badminton, winning the most Olympic gold medals and Uber/Thomas Cup titles."
+      }
+    ]
+  },
+  "badminton_Hard": {
+    "sport": "Badminton",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which legendary player is widely considered the greatest singles badminton player ever, holding two Olympic golds and five World Championships?",
+        "options": ["A. Lin Dan", "B. Lee Chong Wei", "C. Taufik Hidayat", "D. Peter Gade"],
+        "correctAnswerLetter": "A",
+        "explanation": "Lin Dan of China is widely considered the greatest singles badminton player, winning two Olympic golds and five World Championships."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which player held the World No. 1 ranking for a consecutive 199 weeks between 2008 and 2012?",
+        "options": ["A. Lin Dan", "B. Lee Chong Wei", "C. Chen Long", "D. Viktor Axelsen"],
+        "correctAnswerLetter": "B",
+        "explanation": "Lee Chong Wei of Malaysia held the World No. 1 ranking for a consecutive 199 weeks between 2008 and 2012."
+      },
+      {
+        "questionNumber": 3,
+        "question": "In which year was the International Badminton Federation (now Badminton World Federation, BWF) founded?",
+        "options": ["A. 1912", "B. 1924", "C. 1934", "D. 1948"],
+        "correctAnswerLetter": "C",
+        "explanation": "The International Badminton Federation (now Badminton World Federation, BWF) was founded in 1934."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What is the maximum speed ever recorded for a badminton smash in a professional competition?",
+        "options": ["A. Under 300 km/h", "B. Around 350 km/h", "C. Around 400 km/h", "D. Over 500 km/h"],
+        "correctAnswerLetter": "D",
+        "explanation": "In 2023, Satwiksairaj Rankireddy of India set a world record with a smash speed of 565 km/h (351 mph), making badminton the fastest racket sport."
+      }
+    ]
+  },
+  "hockey_Easy": {
+    "sport": "Hockey",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "How many players are on the field/ice for each team during a standard field hockey match?",
+        "options": ["A. 6 players", "B. 8 players", "C. 11 players", "D. 12 players"],
+        "correctAnswerLetter": "C",
+        "explanation": "In field hockey, a match is played by 11 players per team (including the goalkeeper), while ice hockey has 6 players on the ice."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Under standard rules, which side of the hockey stick is flat and can be used to hit the ball?",
+        "options": ["A. Both sides are flat and usable", "B. Only one specific flat side", "C. The rounded side only", "D. Only the handle"],
+        "correctAnswerLetter": "B",
+        "explanation": "The curved side of the hockey stick is flat on only one side; players must only use this flat side to hit the ball."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which country is the most successful nation in Olympic field hockey history, holding a total of 8 gold medals?",
+        "options": ["A. Germany", "B. Netherlands", "C. India", "D. Australia"],
+        "correctAnswerLetter": "C",
+        "explanation": "India is the most successful nation in Olympic field hockey history, winning 8 gold medals, including 6 consecutive golds from 1928 to 1956."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What is the projectile used in ice hockey called?",
+        "options": ["A. Ball", "B. Puck", "C. Shuttle", "D. Ring"],
+        "correctAnswerLetter": "B",
+        "explanation": "Ice hockey is played with a hard rubber disc called a puck, while field hockey is played with a solid ball."
+      }
+    ]
+  },
+  "hockey_Medium": {
+    "sport": "Hockey",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who is regarded as the greatest field hockey player ever, famous for his extraordinary stickwork and 3 Olympic Gold medals with India?",
+        "options": ["A. Balbir Singh", "B. Dhyan Chand", "C. Leslie Claudius", "D. Dhanraj Pillay"],
+        "correctAnswerLetter": "B",
+        "explanation": "The legendary Dhyan Chand of India is regarded as the greatest field hockey player ever, known for his extraordinary ball control."
+      },
+      {
+        "questionNumber": 2,
+        "question": "From which area on the pitch must a field hockey shot be taken to be counted as a valid goal?",
+        "options": [
+          "A. Anywhere on the pitch",
+          "B. Inside the opponent's 'shooting circle' or 'D'",
+          "C. From the penalty spot only",
+          "D. Past the half-line"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "In field hockey, goals can only be scored from inside the 'shooting circle' or 'D'."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Where did ice hockey originate in the early 19th century, with the first indoor game played in Montreal?",
+        "options": ["A. England", "B. United States", "C. Canada", "D. Russia"],
+        "correctAnswerLetter": "C",
+        "explanation": "Ice hockey originated in Canada in the early 19th century, with the first indoor game played in Montreal in 1875."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which NHL team holds the record for the most Stanley Cup championships in history (24 titles)?",
+        "options": ["A. Toronto Maple Leafs", "B. Detroit Red Wings", "C. Montreal Canadiens", "D. Boston Bruins"],
+        "correctAnswerLetter": "C",
+        "explanation": "The Montreal Canadiens have won the NHL's Stanley Cup a record 24 times."
+      }
+    ]
+  },
+  "hockey_Hard": {
+    "sport": "Hockey",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which legendary ice hockey player, known as 'The Great One', holds almost all major NHL scoring records, including most career goals (894)?",
+        "options": ["A. Wayne Gretzky", "B. Mario Lemieux", "C. Bobby Orr", "D. Gordie Howe"],
+        "correctAnswerLetter": "A",
+        "explanation": "Wayne Gretzky, known as 'The Great One', holds almost all major NHL scoring records, including most career goals (894) and assists (1,963)."
+      },
+      {
+        "questionNumber": 2,
+        "question": "What is the duration and period division of a standard field hockey match?",
+        "options": [
+          "A. Two 45-minute halves",
+          "B. Three 20-minute periods",
+          "C. Four 15-minute quarters",
+          "D. Two 30-minute halves"
+        ],
+        "correctAnswerLetter": "C",
+        "explanation": "In field hockey, a match consists of four 15-minute quarters, totaling 60 minutes. Ice hockey is played in three 20-minute periods."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Where were field hockey's modern rules first developed in the mid-19th century, establishing Blackheath as the oldest club?",
+        "options": ["A. Scotland", "B. England", "C. India", "D. Netherlands"],
+        "correctAnswerLetter": "B",
+        "explanation": "Field hockey's modern rules developed in England in the mid-19th century, with the Blackheath Football and Hockey Club being the oldest club (1861)."
+      },
+      {
+        "questionNumber": 4,
+        "question": "In ice hockey, how many players from each team are on the ice during standard play (excluding penalties)?",
+        "options": ["A. 5 players", "B. 6 players", "C. 7 players", "D. 11 players"],
+        "correctAnswerLetter": "B",
+        "explanation": "In ice hockey, standard play is 5 skaters and 1 goaltender, making 6 players per team on the ice."
+      }
+    ]
+  },
+  "formula1_Easy": {
+    "sport": "Formula 1",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "In which country was the first official Formula 1 World Championship race held at Silverstone in 1950?",
+        "options": ["A. Italy", "B. Germany", "C. Great Britain", "D. France"],
+        "correctAnswerLetter": "C",
+        "explanation": "The first Formula 1 World Championship race was held at Silverstone, England (Great Britain) on May 13, 1950."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which two drivers are tied for the record of most Formula 1 World Drivers' Championships, with seven titles each?",
+        "options": [
+          "A. Michael Schumacher & Lewis Hamilton",
+          "B. Ayrton Senna & Alain Prost",
+          "C. Sebastian Vettel & Max Verstappen",
+          "D. Niki Lauda & Fernando Alonso"
+        ],
+        "correctAnswerLetter": "A",
+        "explanation": "Michael Schumacher and Lewis Hamilton are tied for the record of most World Drivers' Championships, with seven titles each."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which team is the oldest and most successful active team in F1 history, holding the most Constructors' Championships?",
+        "options": ["A. McLaren", "B. Williams", "C. Red Bull Racing", "D. Ferrari"],
+        "correctAnswerLetter": "D",
+        "explanation": "Ferrari is the oldest and most successful active team in Formula 1 history, holding the record for the most Constructors' Championships (16)."
+      },
+      {
+        "questionNumber": 4,
+        "question": "How many points is awarded to a Formula 1 race winner?",
+        "options": ["A. 10 points", "B. 15 points", "C. 20 points", "D. 25 points"],
+        "correctAnswerLetter": "D",
+        "explanation": "Points are awarded to the top 10 finishers, with 25 points for 1st place, 18 for 2nd, and 15 for 3rd."
+      }
+    ]
+  },
+  "formula1_Medium": {
+    "sport": "Formula 1",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who won the first ever official Formula 1 World Championship race in 1950?",
+        "options": ["A. Juan Manuel Fangio", "B. Giuseppe Farina", "C. Alberto Ascari", "D. Stirling Moss"],
+        "correctAnswerLetter": "B",
+        "explanation": "The first Formula 1 World Championship race was won by Italian driver Giuseppe Farina in an Alfa Romeo."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which legendary Brazilian driver won three World Championships and is famous for his rain mastery and qualifying speed?",
+        "options": ["A. Ayrton Senna", "B. Nelson Piquet", "C. Emerson Fittipaldi", "D. Rubens Barrichello"],
+        "correctAnswerLetter": "A",
+        "explanation": "Ayrton Senna of Brazil won three World Championships (1988, 1990, 1991) and is legendary for his sensational qualifying speed and rain-driving mastery."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the tire compound rule during a dry Formula 1 race?",
+        "options": [
+          "A. Must use the exact same set the entire race",
+          "B. Must use at least two different dry tire compounds",
+          "C. Can only use Soft tires",
+          "D. Tire changes are not allowed unless there is a puncture"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "Under F1 rules, drivers must use at least two different dry tire compounds (e.g., Soft and Medium) during a dry race."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who holds the record for the most Grand Prix wins in a single season (19 wins in 2023)?",
+        "options": ["A. Lewis Hamilton", "B. Sebastian Vettel", "C. Max Verstappen", "D. Michael Schumacher"],
+        "correctAnswerLetter": "C",
+        "explanation": "Max Verstappen holds the record for the most wins in a single season, winning 19 wins out of 22 races in 2023."
+      }
+    ]
+  },
+  "formula1_Hard": {
+    "sport": "Formula 1",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who became the youngest ever Formula 1 World Champion when he won the title in 2010?",
+        "options": ["A. Lewis Hamilton", "B. Sebastian Vettel", "C. Fernando Alonso", "D. Max Verstappen"],
+        "correctAnswerLetter": "B",
+        "explanation": "Sebastian Vettel became the youngest ever World Champion in 2010 at the age of 23 years and 134 days."
+      },
+      {
+        "questionNumber": 2,
+        "question": "What is the standard minimum race distance of a Formula 1 Grand Prix (excluding Monaco)?",
+        "options": ["A. 250 km", "B. 300 km", "C. 305 km", "D. 350 km"],
+        "correctAnswerLetter": "C",
+        "explanation": "A Formula 1 race must have a minimum distance of 305 kilometers, which is the least number of laps required to exceed 305 km."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the maximum time limit for a Formula 1 race in case of suspension or red flags?",
+        "options": ["A. 1 hour", "B. 2 hours", "C. 3 hours", "D. 4 hours"],
+        "correctAnswerLetter": "C",
+        "explanation": "A race must not exceed 2 hours of actual running time, or 3 hours in total duration in case of a suspension."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which driver holds the record for the most consecutive Formula 1 Grand Prix wins (10 wins in a row)?",
+        "options": ["A. Sebastian Vettel", "B. Alberto Ascari", "C. Max Verstappen", "D. Michael Schumacher"],
+        "correctAnswerLetter": "C",
+        "explanation": "Max Verstappen set the record in 2023 by winning 10 consecutive races from Miami to Monza."
+      }
+    ]
+  },
+  "volleyball_Easy": {
+    "sport": "Volleyball",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "How many players are on the court for a single team during a standard indoor volleyball match?",
+        "options": ["A. 4 players", "B. 5 players", "C. 6 players", "D. 11 players"],
+        "correctAnswerLetter": "C",
+        "explanation": "A standard team consists of 6 players on the court."
+      },
+      {
+        "questionNumber": 2,
+        "question": "What is the maximum number of touches a team is allowed before sending the ball over the net?",
+        "options": ["A. 2 touches", "B. 3 touches", "C. 4 touches", "D. 5 touches"],
+        "correctAnswerLetter": "B",
+        "explanation": "A team is allowed a maximum of three touches of the ball before sending it over the net."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Under standard rules, can a single player touch the ball twice in succession (excluding block touches)?",
+        "options": [
+          "A. Yes, any time",
+          "B. No, a player may not touch the ball twice in succession",
+          "C. Yes, but only in the front row",
+          "D. Only if using their head"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "A single player may not touch the ball twice in succession (except when blocking)."
+      },
+      {
+        "questionNumber": 4,
+        "question": "To how many points is a standard volleyball game played (excluding a deciding fifth set)?",
+        "options": ["A. 15 points", "B. 21 points", "C. 25 points", "D. 30 points"],
+        "correctAnswerLetter": "C",
+        "explanation": "Games are played to 25 points (using rally scoring), and must be won by a two-point margin."
+      }
+    ]
+  },
+  "volleyball_Medium": {
+    "sport": "Volleyball",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who invented volleyball in 1895, and what was its original name?",
+        "options": [
+          "A. James Naismith (Basket-ball)",
+          "B. William G. Morgan (Mintonette)",
+          "C. Abner Doubleday (Town-ball)",
+          "D. Holger Nielsen (Hand-ball)"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "Volleyball was invented in 1895 by William G. Morgan, a YMCA physical education director, in Holyoke, Massachusetts, originally called 'Mintonette'."
+      },
+      {
+        "questionNumber": 2,
+        "question": "In which year and city was Volleyball added to the Summer Olympic games program?",
+        "options": ["A. 1952 Helsinki", "B. 1960 Rome", "C. 1964 Tokyo", "D. 1972 Munich"],
+        "correctAnswerLetter": "C",
+        "explanation": "Volleyball was added to the summer Olympic program in 1964 in Tokyo."
+      },
+      {
+        "questionNumber": 3,
+        "question": "To how many points is a deciding fifth set played in a standard volleyball match?",
+        "options": ["A. 11 points", "B. 15 points", "C. 21 points", "D. 25 points"],
+        "correctAnswerLetter": "B",
+        "explanation": "While standard sets are played to 25, a deciding fifth set is played to 15 points, and must be won by a two-point margin."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which player is the only person to win Olympic gold medals in both indoor and beach volleyball?",
+        "options": ["A. Karch Kiraly", "B. Kerri Walsh Jennings", "C. Misty May-Treanor", "D. Gilberto Amauri de Godoy Filho (Giba)"],
+        "correctAnswerLetter": "A",
+        "explanation": "Karch Kiraly of the USA is the only person to win Olympic gold medals in both indoor volleyball (1984, 1988) and beach volleyball (1996)."
+      }
+    ]
+  },
+  "volleyball_Hard": {
+    "sport": "Volleyball",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "In which year was the Fédération Internationale de Volleyball (FIVB) founded in Paris?",
+        "options": ["A. 1936", "B. 1947", "C. 1955", "D. 1964"],
+        "correctAnswerLetter": "B",
+        "explanation": "The Federation Internationale de Volleyball (FIVB) was founded in Paris in 1947."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which women's national team dominated volleyball in the 1990s, winning three consecutive Olympic gold medals (1992, 1996, 2000)?",
+        "options": ["A. China", "B. Cuba", "C. Brazil", "D. Russia"],
+        "correctAnswerLetter": "B",
+        "explanation": "Cuba (women) was a powerhouse team, winning three consecutive Olympic golds in the 1990s."
+      },
+      {
+        "questionNumber": 3,
+        "question": "What is the specialist defensive player in volleyball called, who wears a different colored jersey and cannot serve or attack?",
+        "options": ["A. Libero", "B. Setter", "C. Opposite", "D. Middle Blocker"],
+        "correctAnswerLetter": "A",
+        "explanation": "The Libero is a specialized defensive player introduced in 1998, who must wear a contrasting jersey and has restrictions on serving, blocking, and attacking."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What is the height of the net for men's and women's competition under FIVB rules?",
+        "options": [
+          "A. Men: 2.43m, Women: 2.24m",
+          "B. Men: 2.45m, Women: 2.30m",
+          "C. Men: 2.40m, Women: 2.20m",
+          "D. Men: 2.50m, Women: 2.35m"
+        ],
+        "correctAnswerLetter": "A",
+        "explanation": "Under official rules, the net height is 2.43 meters (7.97 ft) for men and 2.24 meters (7.35 ft) for women."
+      }
+    ]
+  },
+  "world-cup-classics": {
+    "sport": "Football",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "In which year was the first FIFA World Cup held in Uruguay?",
+        "options": ["A. 1924", "B. 1928", "C. 1930", "D. 1934"],
+        "correctAnswerLetter": "C",
+        "explanation": "The first FIFA World Cup was held in Uruguay in 1930, and the hosts won the tournament."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which legendary player is the only one to have won three FIFA World Cups?",
+        "options": ["A. Pelé", "B. Diego Maradona", "C. Franz Beckenbauer", "D. Garrincha"],
+        "correctAnswerLetter": "A",
+        "explanation": "Pelé won three FIFA World Cups with Brazil in 1958, 1962, and 1970."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which country won the most recent FIFA World Cup held in Qatar in 2022?",
+        "options": ["A. France", "B. Argentina", "C. Croatia", "D. Morocco"],
+        "correctAnswerLetter": "B",
+        "explanation": "Argentina won the 2022 FIFA World Cup in Qatar, defeating France in an iconic penalty shootout after a 3-3 draw."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Who is the all-time leading goal scorer in FIFA World Cup history?",
+        "options": ["A. Ronaldo Nazario (Brazil)", "B. Miroslav Klose (Germany)", "C. Pelé (Brazil)", "D. Thomas Müller (Germany)"],
+        "correctAnswerLetter": "B",
+        "explanation": "Miroslav Klose of Germany holds the record with 16 World Cup goals scored across 4 tournaments (2002-2014)."
+      }
+    ]
+  },
+  "legends-of-the-game": {
+    "sport": "Basketball",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who holds the record for the most Grand Slam men's singles titles in tennis history?",
+        "options": ["A. Roger Federer", "B. Rafael Nadal", "C. Novak Djokovic", "D. Pete Sampras"],
+        "correctAnswerLetter": "C",
+        "explanation": "Novak Djokovic holds the record for the most Grand Slam men's singles titles in tennis history."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which legendary player surpassed Kareem Abdul-Jabbar in 2023 to become the NBA's all-time leading scorer?",
+        "options": ["A. Kobe Bryant", "B. LeBron James", "C. Michael Jordan", "D. Shaquille O'Neal"],
+        "correctAnswerLetter": "B",
+        "explanation": "LeBron James is the NBA's all-time leading scorer, surpassing Kareem's record of 38,387 points in 2023."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Who is the only player in cricket history to score 100 international centuries?",
+        "options": ["A. Sachin Tendulkar", "B. Virat Kohli", "C. Brian Lara", "D. Ricky Ponting"],
+        "correctAnswerLetter": "A",
+        "explanation": "Sachin Tendulkar of India holds this monumental record, with 51 Test centuries and 49 ODI centuries."
+      },
+      {
+        "questionNumber": 4,
+        "question": "How many NBA championships did Michael Jordan win with the Chicago Bulls?",
+        "options": ["A. 4 championships", "B. 5 championships", "C. 6 championships", "D. 7 championships"],
+        "correctAnswerLetter": "C",
+        "explanation": "Michael Jordan won 6 championships (two three-peats) with the Chicago Bulls, winning Finals MVP in all six."
+      }
+    ]
+  },
+  "premier-league-deep-dive": {
+    "sport": "Football",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Which club went an entire 38-game Premier League season undefeated in 2003-04?",
+        "options": ["A. Manchester United", "B. Chelsea", "C. Arsenal", "D. Manchester City"],
+        "correctAnswerLetter": "C",
+        "explanation": "Arsenal's 'Invincibles' went undefeated (26 wins, 12 draws) in the 2003-04 Premier League season under Arsène Wenger."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Who is the all-time leading goal scorer in English Premier League history?",
+        "options": ["A. Wayne Rooney", "B. Alan Shearer", "C. Harry Kane", "D. Thierry Henry"],
+        "correctAnswerLetter": "B",
+        "explanation": "Alan Shearer is the all-time Premier League top scorer with 260 goals."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which manager won the most Premier League titles in history?",
+        "options": ["A. Arsène Wenger", "B. José Mourinho", "C. Pep Guardiola", "D. Sir Alex Ferguson"],
+        "correctAnswerLetter": "D",
+        "explanation": "Sir Alex Ferguson won an incredible 13 Premier League titles with Manchester United before his retirement."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which club achieved the historic Continental Treble (Premier League, FA Cup, and Champions League) in 2023?",
+        "options": ["A. Liverpool", "B. Manchester United", "C. Chelsea", "D. Manchester City"],
+        "correctAnswerLetter": "D",
+        "explanation": "Manchester City won the Treble under Pep Guardiola in 2023, replicating Manchester United's 1999 feat."
+      }
+    ]
+  },
+  "olympic-glory": {
+    "sport": "Volleyball",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "Who holds the record for the most Olympic Gold medals won by any individual in history?",
+        "options": ["A. Usain Bolt", "B. Michael Phelps", "C. Carl Lewis", "D. Simone Biles"],
+        "correctAnswerLetter": "B",
+        "explanation": "American swimmer Michael Phelps holds the record for the most Olympic Gold medals in history, with an astonishing 23 golds."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which legendary sprinter achieved the 'triple-triple' of winning 100m, 200m, and 4x100m gold in three consecutive Olympics (2008-2016)?",
+        "options": ["A. Usain Bolt", "B. Carl Lewis", "C. Justin Gatlin", "D. Yohan Blake"],
+        "correctAnswerLetter": "A",
+        "explanation": "Usain Bolt of Jamaica won the 100m, 200m, and 4x100m relay in 2008, 2012, and 2016, cementing his legacy as the fastest human ever."
+      },
+      {
+        "questionNumber": 3,
+        "question": "In which city were the first modern Olympic Games held in 1896?",
+        "options": ["A. Paris", "B. London", "C. Athens", "D. Rome"],
+        "correctAnswerLetter": "C",
+        "explanation": "The inaugural modern Olympic Games were held in Athens, Greece, in 1896, paying homage to the ancient Olympics."
+      },
+      {
+        "questionNumber": 4,
+        "question": "Which gymnast holds the record for the most Olympic medals won by an American gymnast?",
+        "options": ["A. Shannon Miller", "B. Gabby Douglas", "C. Simone Biles", "D. Nastia Liukin"],
+        "correctAnswerLetter": "C",
+        "explanation": "Simone Biles is widely regarded as the greatest gymnast of all time and has won 11 Olympic medals (7 gold)."
+      }
+    ]
+  },
+  "ashes-cricket-crucible": {
+    "sport": "Cricket",
+    "difficulty": "Hard",
+    "questions": [
+      {
+        "questionNumber": 1,
+        "question": "The mock obituary that established the 'Ashes' was published in 1882 after Australia defeated England at which ground?",
+        "options": ["A. Lord's", "B. The Oval", "C. Melbourne Cricket Ground", "D. Headingley"],
+        "correctAnswerLetter": "B",
+        "explanation": "Australia defeated England by 7 runs at The Oval in August 1882, leading to the famous mock obituary stating English cricket had died."
+      },
+      {
+        "questionNumber": 2,
+        "question": "Which player holds the record for the most runs in a single Ashes series (974 runs in 1930)?",
+        "options": ["A. Sir Don Bradman", "B. Wally Hammond", "C. Steve Smith", "D. Allan Border"],
+        "correctAnswerLetter": "A",
+        "explanation": "Sir Don Bradman scored an unbelievable 974 runs in just 7 innings during the 1930 Ashes tour of England."
+      },
+      {
+        "questionNumber": 3,
+        "question": "Which bowler took a legendary 19 wickets in a single Ashes Test match at Old Trafford in 1956?",
+        "options": ["A. Shane Warne", "B. Jim Laker", "C. Fred Trueman", "D. Glenn McGrath"],
+        "correctAnswerLetter": "B",
+        "explanation": "Jim Laker of England set an unbreakable record by taking 19 wickets for 90 runs (9 in first innings, 10 in second) in the 1956 Old Trafford Test."
+      },
+      {
+        "questionNumber": 4,
+        "question": "What is historically placed inside the famous Ashes Urn presented to the winners?",
+        "options": [
+          "A. Ashes of a cricket ball",
+          "B. Ashes of a wooden bail",
+          "C. Soil from the Melbourne pitch",
+          "D. A piece of the mock obituary paper"
+        ],
+        "correctAnswerLetter": "B",
+        "explanation": "The Ashes Urn is believed to contain the ashes of a wooden cricket bail, cremated during Australia's 1882 tour."
+      }
+    ]
+  }
+}

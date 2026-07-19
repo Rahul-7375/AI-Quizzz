@@ -1,0 +1,6 @@
+{
+  "name": "AI Sports Quiz Generator",
+  "description": "An interactive AI-powered sports quiz generation agent grounded in verified historical knowledge and live Google search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
